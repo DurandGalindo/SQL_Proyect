@@ -15,4 +15,12 @@ CREATE TABLE sucursales
 	telefono VARCHAR (25) NULL
 );
 
+CREATE TABLE horas
+(
+	id INT IDENTITY (1,1) PRIMARY KEY,
+	dia VARCHAR(25) NOT NULL,
+	hora_inicio TIME NOT NULL,
+	hora_fin TIME NOT NULL
+);
+
 SELECT * FROM sucursales;
