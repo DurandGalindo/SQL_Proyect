@@ -2,9 +2,7 @@
 CREATE DATABASE bd_banca_indicadores_diarios;
 --Uso de la base de datos
 USE bd_banca_indicadores_diarios;
-
 --Creación de la tabla Sucursales
-DROP TABLE sucursal
 CREATE TABLE sucursal
 (
 	id_sucursal INT IDENTITY(1,1) ,
